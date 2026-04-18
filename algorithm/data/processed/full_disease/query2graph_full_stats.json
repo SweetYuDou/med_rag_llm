@@ -1,0 +1,77 @@
+{
+  "dataset_size": 607615,
+  "negative_samples": 7448,
+  "node_type_counts": {
+    "check": 220065,
+    "department": 16743,
+    "disease": 324576,
+    "drug": 41090,
+    "symptom": 793255
+  },
+  "source_counts": {
+    "dialogue": 519491,
+    "fill": 21782,
+    "imcs": 27467,
+    "manual": 19,
+    "synthetic": 38861
+  },
+  "template_counts": {
+    "check_fill": 3286,
+    "check_question": 8344,
+    "department_fill": 54,
+    "department_question": 6206,
+    "disease_fill": 8616,
+    "disease_guess": 8751,
+    "drug_fill": 3825,
+    "drug_question": 7156,
+    "hard_case": 9,
+    "negative": 10,
+    "patient_combined": 3952,
+    "patient_turn": 20263,
+    "real_negative": 7438,
+    "real_query": 512053,
+    "self_report": 3576,
+    "symptom_fill": 6001,
+    "symptom_pair": 8404
+  },
+  "coverage": {
+    "disease": {
+      "covered": 8807,
+      "total": 8807,
+      "coverage_ratio": 1.0,
+      "uncovered_preview": []
+    },
+    "symptom": {
+      "covered": 6002,
+      "total": 6002,
+      "coverage_ratio": 1.0,
+      "uncovered_preview": []
+    },
+    "department": {
+      "covered": 54,
+      "total": 54,
+      "coverage_ratio": 1.0,
+      "uncovered_preview": []
+    },
+    "check": {
+      "covered": 3353,
+      "total": 3353,
+      "coverage_ratio": 1.0,
+      "uncovered_preview": []
+    },
+    "drug": {
+      "covered": 3825,
+      "total": 3825,
+      "coverage_ratio": 1.0,
+      "uncovered_preview": []
+    }
+  },
+  "kg_node_totals": {
+    "disease": 8807,
+    "symptom": 6002,
+    "department": 54,
+    "check": 3353,
+    "drug": 3825
+  },
+  "kg_source_records": 8807
+}

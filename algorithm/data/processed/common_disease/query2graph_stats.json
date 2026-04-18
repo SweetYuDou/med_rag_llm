@@ -1,0 +1,68 @@
+{
+  "dataset_size": 10000,
+  "negative_samples": 700,
+  "common_disease_records": 72,
+  "common_nodes": {
+    "disease": 72,
+    "symptom": 433,
+    "check": 290,
+    "department": 24,
+    "drug": 160
+  },
+  "node_counts_in_dataset": {
+    "symptom": 15873,
+    "drug": 680,
+    "check": 698,
+    "department": 574,
+    "disease": 2380
+  },
+  "source_counts": {
+    "synthetic": 2762,
+    "imcs_patient_turn": 1537,
+    "meddialog": 3300,
+    "synthetic_hard": 1738,
+    "imcs_combined": 326,
+    "imcs_self_report": 337
+  },
+  "tag_counts": {
+    "drug_question": 516,
+    "synthetic": 4500,
+    "imcs": 2200,
+    "multi_entity": 4074,
+    "negation": 3564,
+    "patient_turn": 1537,
+    "real": 5500,
+    "check_question": 553,
+    "meddialog": 3300,
+    "hard": 1738,
+    "department_question": 564,
+    "negative": 700,
+    "distractor": 381,
+    "disease_mention": 565,
+    "self_report": 337,
+    "single_entity": 186,
+    "normalization_ambiguity": 48
+  },
+  "coverage": {
+    "disease": {
+      "covered": 72,
+      "total": 72
+    },
+    "symptom": {
+      "covered": 390,
+      "total": 433
+    },
+    "check": {
+      "covered": 51,
+      "total": 290
+    },
+    "department": {
+      "covered": 8,
+      "total": 24
+    },
+    "drug": {
+      "covered": 51,
+      "total": 160
+    }
+  }
+}

@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+algorithm/data/* filter=lfs diff=lfs merge=lfs -text
+algorithm/data/raw/train_0001_of_0001.json filter=lfs diff=lfs merge=lfs -text
+algorithm/data/processed/full_disease/query2graph_full_annotations.json filter=lfs diff=lfs merge=lfs -text
