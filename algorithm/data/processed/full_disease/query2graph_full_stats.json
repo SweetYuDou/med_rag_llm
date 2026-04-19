@@ -1,77 +1,187 @@
 {
-  "dataset_size": 607615,
-  "negative_samples": 7448,
-  "node_type_counts": {
-    "check": 220065,
-    "department": 16743,
-    "disease": 324576,
-    "drug": 41090,
-    "symptom": 793255
-  },
+  "dataset_size": 519821,
+  "positive_samples": 504000,
+  "negative_samples": 15821,
   "source_counts": {
-    "dialogue": 519491,
-    "fill": 21782,
-    "imcs": 27467,
-    "manual": 19,
-    "synthetic": 38861
+    "fill:check": 1723,
+    "fill:department": 7,
+    "fill:disease": 1316,
+    "fill:drug": 1791,
+    "fill:symptom": 1387,
+    "imcs:IMCS-V2_dev": 361,
+    "imcs:IMCS-V2_test": 330,
+    "imcs:IMCS-V2_train": 1067,
+    "manual_hard_case": 7,
+    "manual_negative": 8,
+    "medical_dialogue": 485974,
+    "medical_synthetic_check": 7204,
+    "medical_synthetic_department": 3829,
+    "medical_synthetic_disease": 145,
+    "medical_synthetic_drug": 6174,
+    "medical_synthetic_symptom": 8498
   },
-  "template_counts": {
-    "check_fill": 3286,
-    "check_question": 8344,
-    "department_fill": 54,
-    "department_question": 6206,
-    "disease_fill": 8616,
-    "disease_guess": 8751,
-    "drug_fill": 3825,
-    "drug_question": 7156,
-    "hard_case": 9,
-    "negative": 10,
-    "patient_combined": 3952,
-    "patient_turn": 20263,
-    "real_negative": 7438,
-    "real_query": 512053,
-    "self_report": 3576,
-    "symptom_fill": 6001,
-    "symptom_pair": 8404
+  "node_type_counts": {
+    "check": 48599,
+    "department": 17297,
+    "disease": 514366,
+    "drug": 32298,
+    "symptom": 305220
   },
   "coverage": {
     "disease": {
       "covered": 8807,
       "total": 8807,
-      "coverage_ratio": 1.0,
-      "uncovered_preview": []
+      "ratio": 1.0
     },
     "symptom": {
-      "covered": 6002,
-      "total": 6002,
-      "coverage_ratio": 1.0,
-      "uncovered_preview": []
+      "covered": 5223,
+      "total": 5223,
+      "ratio": 1.0
     },
     "department": {
       "covered": 54,
       "total": 54,
-      "coverage_ratio": 1.0,
-      "uncovered_preview": []
+      "ratio": 1.0
     },
     "check": {
       "covered": 3353,
       "total": 3353,
-      "coverage_ratio": 1.0,
-      "uncovered_preview": []
+      "ratio": 1.0
     },
     "drug": {
       "covered": 3825,
       "total": 3825,
-      "coverage_ratio": 1.0,
-      "uncovered_preview": []
+      "ratio": 1.0
     }
   },
-  "kg_node_totals": {
+  "kg_node_counts": {
     "disease": 8807,
-    "symptom": 6002,
+    "symptom": 5223,
     "department": 54,
     "check": 3353,
     "drug": 3825
   },
-  "kg_source_records": 8807
+  "filtered_symptom_count": 12155,
+  "filtered_symptom_examples": [
+    [
+      "昏迷",
+      416
+    ],
+    [
+      "结节",
+      415
+    ],
+    [
+      "休克",
+      286
+    ],
+    [
+      "感觉障碍",
+      265
+    ],
+    [
+      "吞咽困难",
+      246
+    ],
+    [
+      "血尿",
+      233
+    ],
+    [
+      "蛋白尿",
+      223
+    ],
+    [
+      "腹水",
+      219
+    ],
+    [
+      "视力障碍",
+      216
+    ],
+    [
+      "耳鸣",
+      186
+    ],
+    [
+      "腹胀",
+      184
+    ],
+    [
+      "共济失调",
+      183
+    ],
+    [
+      "脓肿",
+      181
+    ],
+    [
+      "咯血",
+      158
+    ],
+    [
+      "肌肉萎缩",
+      157
+    ],
+    [
+      "便血",
+      157
+    ],
+    [
+      "低血压",
+      147
+    ],
+    [
+      "心力衰竭",
+      143
+    ],
+    [
+      "心律失常",
+      136
+    ],
+    [
+      "疱疹",
+      136
+    ],
+    [
+      "脱水",
+      132
+    ],
+    [
+      "痴呆",
+      130
+    ],
+    [
+      "败血症",
+      128
+    ],
+    [
+      "意识障碍",
+      123
+    ],
+    [
+      "腹膜炎",
+      119
+    ],
+    [
+      "耳聋",
+      118
+    ],
+    [
+      "鼻出血",
+      110
+    ],
+    [
+      "眼球突出",
+      100
+    ],
+    [
+      "消化不良",
+      99
+    ],
+    [
+      "腹部肿块",
+      99
+    ]
+  ]
 }

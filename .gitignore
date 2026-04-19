@@ -189,4 +189,4 @@ cython_debug/
 .cursorindexingignorealgorithm/data/raw/
 
 algorithm/data/* filter=lfs diff=lfs merge=lfs -textalgorithm/data/raw/
-algorithm/data/processed/full_disease/query2graph_full_annotations.json
+
